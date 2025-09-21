@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 model = joblib.load("logistics_Regression_md.pkl")
-df = pd.read_csv(r"C:\Users\USER\Downloads\Loan_default.csv")
+df = pd.read_csv(r"Loan_default.csv")
 
 st.title("Welcome to T-Loan")
 
